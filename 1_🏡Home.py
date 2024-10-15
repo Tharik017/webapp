@@ -2,6 +2,7 @@ import streamlit as st
 from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
 import multipage_streamlit as mt
+from pages import *
 import requests
 import os
 
