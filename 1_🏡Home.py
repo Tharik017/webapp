@@ -7,6 +7,11 @@ import requests
 import os
 
 
+app=mt.Multipage()
+app.add("Project", project.run)
+app.add("Contact", contact.run)
+
+
 st.set_page_config(
     page_title="Multipage App",
     page_icon=":wave:"
